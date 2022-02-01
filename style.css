@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+/* ZEROING CODE -- ensures consistency across browsers */ 
+
+html, html * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', 'Helvetica Neue',  'Helvetica', 'Arial', sans-serif;
+}
+
+/* NAVIGATION BAR */
+
+header {
+    padding: 32px;
+}
+
+/* - mobile version */
+.style-logo {
+    /* center the logo */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+.style-nav ul {
+    list-style-type: none;
+
+}
+
+.style-nav ul li a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    font-weight: 500;
+}
+
+/* - tablet version */
+/* break point; only add anything that's new or that is overriding the previous verison */
+@media (min-width: 768px) { 
+    
+    .style-nav ul li {
+        /* show in one line rather than stacked */ 
+        display: inline-block 
+    }
+
+    .style-nav ul {
+        text-align: center;
+    }
+
+}
+
+/* - desktop version */
+
+@media (min-width: 1024px) {
+
+    .style-logo {
+        /* moves the image to the left */
+        float: left;
+    }
+
+    .style-nav {
+        float: right;
+    }
+
+}
