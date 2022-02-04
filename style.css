@@ -17,6 +17,7 @@ html, html * {
     font-family: 'Karla', 'Helvetica Neue',  'Helvetica', 'Arial', sans-serif;
 }
 
+/* FOR BIG TITLES -- ex The Valley's Sweetest Conference */
 h1 {
     font-weight: 700;
     font-size: 6vh;
@@ -24,23 +25,34 @@ h1 {
 
 }
 
+/* FOR SECTION HEADERS -- ex Featured Bakeries*/
 h2 {
-    font-weight: 400;
-    font-size: 2.5vh;
+    font-weight: 600;
+    font-size: 3.5vh;
     margin-bottom: 2vh;
   
 }
 
-h4 {
-    font-weight: 700;
-    font-size: 2vh;
-    color: #FF0A0A;
+/* FOR SECTION DESCRIPTIONS */
+h3 {
+    font-weight: 400;
+    font-size: 2.25vh;
+    margin-bottom: 4vh;
 }
 
+
 p {
-    font-weight: 400;
-    font-size: 2.5vh;
+    font-weight: 300;
+    font-size: 2vh;
     margin-bottom: 4vh;
+}
+
+
+/* specially for COUNTDOWN TO DULCEON */
+h4 {
+    font-weight: 500;
+    font-size: 2.5vh;
+    color: #FF0A0A;
 }
 
 .button {
@@ -153,6 +165,13 @@ header {
 
 }
 
+.featbakeries-box img {
+    box-sizing: border-box;
+    width: 25vh;
+    margin-bottom: 3vh;
+    clip-path: circle();
+
+}
 
 
 
